@@ -2,14 +2,14 @@ const get= (req,res)=>{
     res.send([
       {
         id:"1",
-        title: ' Red Notice',
+        title: 'Avenger ',
         category: 'Hollywood',
-        publishedDate: 'Nov 05 2021',
-        imageAsset: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rPy98RZYMpw0GLtAuB_RnLHNIf0u1MAjaw&usqp=CAU',
+        publishedDate: 'April 26 2019',
+        imageAsset: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKNpPem5BNyZAba3nwhHatYlk_M_duVSae5w&usqp=CAU',
         blogContent:
-          'An Interpol agent tracks the worlds most wanted art thief. ... His global pursuit finds him smack dab in the middle of a daring heist where hes forced to partner with the worlds greatest art thief Nolan Booth (Ryan Reynolds) in order to catch the worlds most wanted art thief, "The Bishop" (Gal Gadot).',
+          'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. ... Along the way, the Avengers realize that sacrifices must be made as they prepare for the ultimate final showdown with Thanos, which will result in the heroes fighting the biggest battle they have ever faced.',
         likes: '200',
-      },
+      },      
       {
         id:"2",
         title: ' The Last Dual',
@@ -42,14 +42,15 @@ const get= (req,res)=>{
       },
       {
         id:"5",
-        title: 'Avenger ',
+        title: ' Red Notice',
         category: 'Hollywood',
-        publishedDate: 'April 26 2019',
-        imageAsset: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKNpPem5BNyZAba3nwhHatYlk_M_duVSae5w&usqp=CAU',
+        publishedDate: 'Nov 05 2021',
+        imageAsset: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rPy98RZYMpw0GLtAuB_RnLHNIf0u1MAjaw&usqp=CAU',
         blogContent:
-          'After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. ... Along the way, the Avengers realize that sacrifices must be made as they prepare for the ultimate final showdown with Thanos, which will result in the heroes fighting the biggest battle they have ever faced.',
+          'An Interpol agent tracks the worlds most wanted art thief. ... His global pursuit finds him smack dab in the middle of a daring heist where hes forced to partner with the worlds greatest art thief Nolan Booth (Ryan Reynolds) in order to catch the worlds most wanted art thief, "The Bishop" (Gal Gadot).',
         likes: '200',
-      },        
+      },
+            
     ])
 }
 module.exports.thirdget= get;
